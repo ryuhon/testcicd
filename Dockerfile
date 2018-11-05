@@ -1,7 +1,7 @@
 FROM node:carbon
 
 # 앱 디렉토리 생성 
-WORKDIR /app
+WORKDIR /usr/src/app
 
 # 앱 의존성 설치 
 COPY ./node/package*.json ./
