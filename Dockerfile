@@ -4,7 +4,7 @@ FROM node:carbon
 WORKDIR /app
 
 # 앱 의존성 설치 
-COPY ./node/packge*.json ./
+COPY ./node/package*.json ./
 
 # 앱 소스 추가 
 COPY ./node/*js ./
